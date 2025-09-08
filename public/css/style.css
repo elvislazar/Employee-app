@@ -1,0 +1,177 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5dc;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #6d4c41 !important;
+}
+
+.navbar a {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #dcd6b0 !important;
+}
+
+h2 {
+  color: #6d4c41;
+}
+
+.table {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 0;
+  padding-right: 2px;
+   table-layout: fixed;
+  width: 100%;
+}
+
+.table td.name, .table th.name { width: 150px; }
+.table td.designation, .table th.designation { width: 120px; }
+.table td.location, .table th.location { width: 120px; }
+.table td.salary, .table th.salary { width: 100px; }
+.table td.actions, .table th.actions { width: 140px; text-align: center; }
+
+
+.table td, .table th {
+  padding: 0.75rem 0.5rem;
+}
+
+.table thead {
+  background-color: #6d4c41;
+  color: #fff;
+}
+
+.table .btn {
+  border-radius: 20px;
+  padding: 5px 15px;
+  min-width: 80px;
+  margin: 2px;
+  display: inline-block;
+}
+
+.table .btn-warning {
+  background-color: #dcd6b0;
+  color: #6d4c41;
+  border: none;
+}
+
+.table .btn-warning:hover {
+  background-color: #cfc99b;
+}
+
+.table .btn-danger {
+  background-color: #c0392b;
+  color: #fff;
+  border: none;
+}
+
+.table .btn-danger:hover {
+  background-color: #a93226;
+}
+
+.employee-form {
+  background: #fdfcf7;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 18px rgba(0,0,0,0.15);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.employee-form .form-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.employee-form .form-control {
+  width: 70%;
+  max-width: 300px;
+  margin: 0 auto 15px;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: 0.3s ease;
+}
+
+.employee-form .form-control:focus {
+  border-color: #6d4c41;
+  box-shadow: 0 0 6px rgba(109,76,65,0.5);
+}
+
+.btn-brown {
+  background-color: #6d4c41;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  transition: background 0.3s ease;
+}
+
+.btn-brown:hover {
+  background-color: #5d4037;
+}
+
+.btn-secondary {
+  background-color: #dcd6b0;
+  color: #6d4c41;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #cfc99b;
+}
+
+.employee-form .btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+  .employee-form .form-control {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .employee-form .btn-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .employee-form .btn {
+    width: 100%;
+  }
+}
+
+.table thead th {
+  background-color: #6d4c41 !important;
+  color: #ffffff !important;
+}
+
+.btn-brown {
+  background-color: #6d4c41;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  transition: background 0.3s ease;
+}
+
+.btn-brown:hover {
+  background-color: #5d4037;
+  color: #fff;
+}
+
